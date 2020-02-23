@@ -13,9 +13,7 @@ const Home = () => {
 
   const getPosts = async () => {
     const res = await axios.get('http://localhost:3000/api/posts');
-    console.log('gettings posts', res.data)
     setPosts(res.data);
-    console.log(posts);
   }
   useEffect(() => {
     getPosts();
