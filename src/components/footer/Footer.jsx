@@ -2,16 +2,20 @@ import React from 'react';
 
 const Footer = ({ handleGoHome, handleUploadImage, step }) => {
   return (
-    <>
-      <button onClick={handleGoHome}>Home</button>
-      <input
-        type="file"
-        name="file"
-        id="file"
-        className="file"
-        disabled={step!==1}
-        onChange={handleUploadImage}/>
-    </>
+    <footer>
+      <button onClick={handleGoHome}><img src="/img/home.svg" className="icon" alt="Home" /></button>
+      <div class="upload-btn-wrapper">
+        <button><img src="/img/camera.svg" className="icon" alt="Subir imagen" /></button>
+        <input
+          type="file"
+          name="file"
+          id="file"
+          className="file"
+          disabled={step !== 1}
+          onChange={handleUploadImage} />
+      </div>
+
+    </footer>
   );
 };
 
