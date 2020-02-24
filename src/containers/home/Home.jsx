@@ -42,7 +42,6 @@ const Home = () => {
       caption,
       filter
     }
-    console.log(post);
     postPost(post);
     setStep(1);
     setTimeout(() => getPosts());
