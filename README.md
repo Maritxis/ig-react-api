@@ -1,9 +1,7 @@
 # Taller IG con React NodeGirlsMadrid 29F
 Bienvenidas!!!!
 
-```
 > 👉 Las slides de la primera parte [las puedes ver aquí](https://slides.com/yunevk/taller-react-nodegirls/live#/).
-```
 
 ## ¿Qué vamos a hacer?
 
